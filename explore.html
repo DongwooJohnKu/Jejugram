@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>feed</title>
+    <title>explore</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -22,14 +22,24 @@
           <i class="fa fa-user-o"></i>
         </a>
       </div>
-
-
     </nav>
+    <main class="explore">
+      <ul class="explore__ul">
+
+  <!--  li.explore__list*10>div.explore__user-info>img.explore__image[src="images/check_icon.png"]+div.explore__username>span.explore__span_title{user_name}+span.explore__span_desc{description}+button.explore__butoon[type="button" name="button"] -->
+        <li class="explore__list">
+          <div class="explore__user-info">
+            <img src="images/check_icon.png" alt="" class="explore__image">
+            <div class="explore__username">
+              <span class="explore__span_title">user_name</span>
+              <span class="explore__span_desc">description</span>
+            </div>
+            <button class="explore__butoon" type="button" name="button">follow</button>
+          </div>
+        </li>
+      </ul>
 
 
-
-    <main>
-      Feed
     </main>
 
     <footer>
@@ -47,10 +57,7 @@
           <li class="footer__item"><a href="#" class="footer__link">Language</a></li>
         </ul>
       </nav>
-
       <span class="footer__copyright">o 2017 Jejugram</span>
-
-
     </footer>
 
   </body>
