@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>feed</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <nav class="navigation">
@@ -27,42 +29,41 @@
 
     <main id="edit_profile">
       <div class="edit_profile__box">
-        <div class="edit_profile_info">
+        <header class="edit_profile_info">
           <img src="images/john.png" alt="Instagram_user" class="photo__user">
           <span class="photo__header_span_1st">
             user_name
           </span>
-        </div>
+        </header>
 
       <form action="thank_message.html" method="get" class="login__form">
         <div class="edit_profile__section">
-          <span class="edit_profile-left">Name</span>
-          <input type="text" placeholder="Dongwoo_John_Ku">
+          <label for="Name">Name</label>
+          <input id="Name" type="text" value="Dongwoo_John_Ku">
         </div>
 
         <div class="edit_profile__section">
-          <span class="edit_profile-left">Username</span>
-          <input type="text">
-          </form>
+          <label for="username">UserName</label>
+          <input id="username" type="text">
         </div>
 
         <div class="edit_profile__section">
-          <span class="edit_profile-left">Website</span>
+          <label for="website">website</label>
+          <input id="website" type="text">
+        </div>
+
+        <div class="edit_profile__section">
+          <label for="bio">Bio</label>
+          <input id="bio" type="text">
+        </div>
+
+        <div class="edit_profile__section">
+          <lable class="edit_profile-left">Email</lable>
             <input type="text">
-          </div>
-
-        <div class="edit_profile__section">
-          <span class="edit_profile-left">Bio</span>
-            <input type="text">
         </div>
 
         <div class="edit_profile__section">
-          <span class="edit_profile-left">Email</span>
-            <input type="text">
-        </div>
-
-        <div class="edit_profile__section">
-          <span class="edit_profile-left">Phone Number</span>
+        <lable class="edit_profile-left">Phone Number</lable>
             <input type="text">
         </div>
 
@@ -73,7 +74,7 @@
               <option value="Female">Female</option>
             </select>
 
-          </div>
+        </div>
 
         <div class="edit_profile__section">
           <span class="edit_profile-left">Similar Account Suggestions</span>
