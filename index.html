@@ -12,9 +12,37 @@
           <img src="images/phoneImage.png" />
         </div>
         <div class="login__columm">
-            <div class="login__box"></div>
-            <div class="login__box"></div>
-            <div class="login_t-box"></div>
+            <div class="login__box">
+              <img src="images/loginLogo.png" alt="loginLogo">
+
+              <form action= "feed.html" method="get" class="login__form">
+                <input type="text" name = "username" placeholder="Username" required>
+                <input type="text" name="passowrd" placeholder="Password" required>
+                <input type="submit" value="Log in">
+              </form>
+
+              <span class="login__divider">
+                or </br>
+              </span>
+              <a href="#" class = "loing__fb-Link">Login in with Facebook</a> </br>
+              <a href="#" class = "loing__small-Link">forget password?</a> </br>
+            </div>
+
+            <div class="login__box">
+              <span class="login__tex">
+                Don't have an account?
+              </span>
+              <a class="login__blue-link" href="#">Sign up</a>
+            </div>
+            <div class="login_t-box">
+              <span class="login_test">
+                Get the app.
+              </span>
+              <div class="login_appstores">
+                <img src="images/ios.png" class="login_appstore" alt="">
+                <img src="images/android.png" class="login_appstore" alt="">
+              </div>
+            </div>
         </div>
       </div>
     </main>
