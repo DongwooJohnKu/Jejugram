@@ -8,44 +8,48 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+  <header id="upheader">
+    <div class="upheader__upper_div">
+      <span class="upheader_span">Jonh's tagram</span>
+      <span class="upheader_span_2nd">It is a clone website for tranining.</span>
+    </div>
+  </header>
   <!-- example -->
-    <main>
-      <div id="login">
-        <div class="login__columm">
-          <img src="images/phoneImage.png" />
-        </div>
-        <div class="login__columm">
-            <div class="login__box">
-              <img src="images/loginLogo.png" alt="loginLogo">
-              <form action= "feed.html" method="get" class="login__form">
-                <input type="text" name = "username" placeholder="Username" required>
-                <input type="text" name="passowrd" placeholder="Password" required>
-                <input type="submit" value="Log in">
-              </form>
-              <span class="login__divider">
-                or </br>
-              </span>
-              <a href="#" class = "loing__fb-Link"> <i class="fa fa-facebook-square"></i>  Login in with Facebook</a> </br>
-              <a href="#" class = "loing__small-Link">forget password?</a> </br>
-            </div>
-            <div class="login__box">
-              <span class="login__tex">
-                Don't have an account?
-              </span>
-              <a class="login__blue-link" href="#">Sign up</a>
-            </div>
-            <div class="login_t-box">
-              <span class="login_test">
-                Get the app.
-              </span>
-              <div class="login_appstores">
-                <img src="images/ios.png" class="login_appstore" alt="">
-                <img src="images/android.png" class="login_appstore" alt="">
-              </div>
-            </div>
+  <main id="login">
+    <div class="login__column">
+      <img src="images/phoneImage.png"  />
+    </div>
+    <div class="login__column">
+      <div class="login__box">
+        <img src="images/loginLogo.png" class="login__insta"/>
+        <form action="feed.html" method="get" class="login__form">
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <input type="submit" value="Log in">
+        </form>
+        <span class="login__divider">
+          or
+        </span>
+        <a href="#" class="login__fb-link"><i class="fa fa-facebook-square"></i> Log in with Facebook</br></a>
+        <a href="#" class="login__small-link">Forgot password?</a>
+      </div>
+      <div class="login__box">
+        <span class="login__text">
+          Don't have an account? <br/>
+        </span>
+        <a class="login__blue-link" href="#">Sign up.</a>
+      </div>
+      <div class="login__t-box">
+        <span class="login__text">
+          Get the app
+        </span>
+        <div class="login__appstores">
+          <img src="images/ios.png" class="login__appstore" />
+          <img src="images/android.png" class="login__appstore" />
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
     <footer>
       <nav class="footer__nav">
@@ -63,7 +67,7 @@
         </ul>
       </nav>
 
-      <span class="footer__copyright">o 2017 Jejugram</span>
+      <span class="footer__copyright">o 2017 John's tagram</span>
 
 
     </footer>
