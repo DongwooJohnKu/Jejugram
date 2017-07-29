@@ -10,33 +10,78 @@
   <body>
     <nav class="navigation">
       <a href="feed.html">
-        <img src="images/logo.png" alt="">
+        <img src="images/logo.png" />
       </a>
       <input type="text" placeholder="Search">
-      <div class="navigation__link">
+      <div class="navigation__links">
         <a href="explore.html" class="navigation__link">
-          <i class="fa fa-compass"></i>
+            <i class="fa fa-compass"></i>
         </a>
-        <a href="content.html" class="navigation__link">
-          <i class="fa fa-heart-o"></i>
+        <a href="#" class="navigation__link">
+            <i class="fa fa-heart-o"></i>
         </a>
         <a href="profile.html" class="navigation__link">
-          <i class="fa fa-user-o"></i>
+            <i class="fa fa-user-o"></i>
         </a>
       </div>
     </nav>
-    <main class="explore">
-      <ul class="explore__ul">
-
-  <!--  li.explore__list*10>div.explore__user-info>img.explore__image[src="images/check_icon.png"]+div.explore__username>span.explore__span_title{user_name}+span.explore__span_desc{description}+button.explore__butoon[type="button" name="button"] -->
-        <li class="explore__list">
-          <div class="explore__user-info">
-            <img src="images/check_icon.png" alt="" class="photo__user">
-            <div class="explore__username">
-              <span class="explore__span_title">user_name</span>
-              <span class="explore__span_desc">description</span>
+    <main id="explore">
+      <ul class="explore__users">
+        <li class="explore__user">
+          <div class="explore__content">
+            <img src="images/john.png"/>
+            <div class="explore__info">
+              <span class="explore__username">John</br></span>
+              <span class="explore__full-name">Dongwoo Ku</span>
             </div>
-            <button class="explore__butoon" type="button" name="button">follow</button>
+          </div>
+          <div class="explore__buttondiv">
+              <button class="explore__userbutton">Follow</button>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="explore__users">
+        <li class="explore__user">
+          <div class="explore__content">
+            <img src="images/nichol.png"/>
+            <div class="explore__info">
+              <span class="explore__username">Nicholas</br></span>
+              <span class="explore__full-name">serrano</span>
+            </div>
+          </div>
+          <div class="explore__buttondiv">
+              <button class="explore__userbutton">Follow</button>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="explore__users">
+        <li class="explore__user">
+          <div class="explore__content">
+            <img src="images/sw.png"/>
+            <div class="explore__info">
+              <span class="explore__username">Shin</br></span>
+              <span class="explore__full-name">seung-won</span>
+            </div>
+          </div>
+          <div class="explore__buttondiv">
+              <button class="explore__userbutton">Follow</button>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="explore__users">
+        <li class="explore__user">
+          <div class="explore__content">
+            <img src="images/hj.png"/>
+            <div class="explore__info">
+              <span class="explore__username">HJ</br></span>
+              <span class="explore__full-name">Lee</span>
+            </div>
+          </div>
+          <div class="explore__buttondiv">
+              <button class="explore__userbutton">Follow</button>
           </div>
         </li>
       </ul>

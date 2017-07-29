@@ -3,19 +3,14 @@
 @import 'globals.css';
 @import 'login.css';
 @import 'footer.css';
+@import 'navigation.css';
+@import 'explore.css';
+@import "feed.css";
+@import "profile.css";
+@import "edit_profile.css";
 
 body{
 
-}
-.photo__user{
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-}
-
-.photo__feed{
-  width: 400px;
-  height: auto;
 }
 
 
