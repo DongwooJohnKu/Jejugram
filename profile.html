@@ -40,7 +40,7 @@
               <a href="edit_profile.html">
                 <button>Edit Profile</button>
               </a>
-              <i class="fa fa-cog fa-lg"></i>
+              <i class="fa fa-cog fa-lg btn_clicked"></i>
             </div>
             <ul class="profile__stats">
               <li class="profile__stat">
@@ -207,9 +207,21 @@
       </nav>
 
       <span class="footer__copyright">o 2017 Jejugram</span>
-
-
     </footer>
 
+      <div class="profile__overlay_basic">
+        <div class="profile__overlay-container profile___no_overlay">
+          <span class="profile__overlay-link">Change password</span>
+          <span class="profile__overlay-link">Authorize Apps</span>
+          <span class="profile__overlay-link">Notifications</span>
+          <span class="profile__overlay-link">Log Out</span>
+          <div class="closed_btn">
+              <span class="profile__overlay-link closed_btn">Cancel</span>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
