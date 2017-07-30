@@ -1,13 +1,12 @@
 #explore {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .explore__users {
   width: 100%;
-  max-width: 550px;
+  max-width: 500px;
   background: white;
 
   border-left:  0.1px solid rgba(156, 156, 156, 0.42);
