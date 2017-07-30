@@ -30,12 +30,18 @@
 .explore__users .explore__content{
   display: flex;
   align-items: center;
+
 }
 
 .explore__user .explore__content img {
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  transition: all .5s ease-in-out;
+}
+
+.explore__user .explore__content img:hover {
+  transform:rotate(5deg);
 }
 
 .explore__user .explore__info{
@@ -67,6 +73,13 @@
   border: 0;
   outline: 0;
   border-radius: 5px;
+  transition: all .5s ease-in-out;
+}
+
+.explore__buttondiv .explore__userbutton:hover{
+    background-color: white;
+    color: #3897f0;
+    border: 1px solid #3897f0
 }
 
 .explore__userbutton button:active{

@@ -47,9 +47,7 @@
     max-width: 100%;
     width : 170px;
     height: 55px;
-
 }
-
 
 .login__column .login__divider{
   margin-top:  20px;
@@ -117,9 +115,6 @@
   color: white;
   font-weight: 600;
   background-color: #3897f0;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
   cursor: pointer;
 
 }
